@@ -63,3 +63,8 @@ void selection_sort(vector<int> &nums, int n){
         swap(nums[mid], nums[i]);
     }
 }
+
+int main()
+{
+    return 0;
+}

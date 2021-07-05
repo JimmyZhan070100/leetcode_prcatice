@@ -1,2 +1,3 @@
+SUBDIRS := $(*/.)
 clean:
-	find . -type f -executable -delete
+	find . -type f -executable -delete $(SUBDIRS)
